@@ -1,0 +1,92 @@
+$date
+	Tue Dec 29 16:41:43 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module testbench $end
+$var reg 2 ! KEY [1:0] $end
+$var wire 1 " LEDR [9] $end
+$var wire 1 # LEDR [8] $end
+$var wire 1 $ LEDR [7] $end
+$var wire 1 % LEDR [6] $end
+$var wire 1 & LEDR [5] $end
+$var wire 1 ' LEDR [4] $end
+$var wire 1 ( LEDR [3] $end
+$var wire 1 ) LEDR [2] $end
+$var wire 1 * LEDR [1] $end
+$var wire 1 + LEDR [0] $end
+
+$scope module dut $end
+$var wire 1 , KEY [1] $end
+$var wire 1 - KEY [0] $end
+$var wire 1 " LEDR [9] $end
+$var wire 1 # LEDR [8] $end
+$var wire 1 $ LEDR [7] $end
+$var wire 1 % LEDR [6] $end
+$var wire 1 & LEDR [5] $end
+$var wire 1 ' LEDR [4] $end
+$var wire 1 ( LEDR [3] $end
+$var wire 1 ) LEDR [2] $end
+$var wire 1 * LEDR [1] $end
+$var wire 1 + LEDR [0] $end
+$var wire 1 . a $end
+$var wire 1 / b $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+0$
+1#
+1"
+1.
+1/
+0-
+0,
+$end
+#10000
+b1 !
+1-
+0.
+0+
+0)
+0'
+0%
+1$
+0#
+#20000
+b10 !
+0-
+1,
+0/
+1.
+1+
+1)
+1'
+1%
+0*
+0(
+0&
+#30000
+b11 !
+1-
+0.
+0+
+0)
+0'
+0%
+0$
+0"

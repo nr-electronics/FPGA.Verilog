@@ -1,0 +1,23 @@
+# do ../modelsim_script.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:40 on Dec 29,2020
+# vlog -reportprogress 300 ../testbench.v ../../Practice1onVerilog.v 
+# -- Compiling module testbench
+# -- Compiling module Practice1onVerilog
+# 
+# Top level modules:
+# 	testbench
+# End time: 16:41:40 on Dec 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 16:41:40 on Dec 29,2020
+# Loading work.testbench
+# Loading work.Practice1onVerilog
+# KEY=00 LEDR=1101111111
+# KEY=01 LEDR=1010101010
+# KEY=10 LEDR=1011010101
+# KEY=11 LEDR=0000000000
+# 0 ps
+# 42 ns
+# End time: 16:47:56 on Dec 29,2020, Elapsed time: 0:06:16
+# Errors: 0, Warnings: 0

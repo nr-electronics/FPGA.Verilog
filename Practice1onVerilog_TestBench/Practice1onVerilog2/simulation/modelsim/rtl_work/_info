@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/nr.new/Desktop/Practice1onVerilog2/simulation/modelsim
+vPractice1onVerilog
+Z1 !s110 1609250220
+!i10b 1
+!s100 k60e7z;[Xj<_Bd=z`a_GE2
+IMZD6Zka=P[9ccD3<z4g@T3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1609167009
+8C:/Users/nr.new/Desktop/Practice1onVerilog2/Practice1onVerilog.v
+FC:/Users/nr.new/Desktop/Practice1onVerilog2/Practice1onVerilog.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1609250220.000000
+!s107 C:/Users/nr.new/Desktop/Practice1onVerilog2/Practice1onVerilog.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nr.new/Desktop/Practice1onVerilog2|C:/Users/nr.new/Desktop/Practice1onVerilog2/Practice1onVerilog.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/nr.new/Desktop/Practice1onVerilog2
+Z6 tCvgOpt 0
+n@practice1on@verilog
+vPractice1onVerilog_test
+R1
+!i10b 1
+!s100 5PA@2o^`fMY@_nG5l^S2M2
+I@^0h5gP_jOLSI?2mR1S9O0
+R2
+R0
+w1609250068
+8C:/Users/nr.new/Desktop/Practice1onVerilog2/simulation/modelsim/Practice1onVerilog_test.v
+FC:/Users/nr.new/Desktop/Practice1onVerilog2/simulation/modelsim/Practice1onVerilog_test.v
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/nr.new/Desktop/Practice1onVerilog2/simulation/modelsim/Practice1onVerilog_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nr.new/Desktop/Practice1onVerilog2/simulation/modelsim|C:/Users/nr.new/Desktop/Practice1onVerilog2/simulation/modelsim/Practice1onVerilog_test.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/nr.new/Desktop/Practice1onVerilog2/simulation/modelsim
+R6
+n@practice1on@verilog_test
