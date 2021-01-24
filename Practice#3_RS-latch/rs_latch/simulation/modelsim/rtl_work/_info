@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/nr.new/Desktop/rs_latch/simulation/modelsim
+vrs_latch
+Z1 !s110 1611491744
+!i10b 1
+!s100 3jfh:WL2CC8PCKYK8PHaj0
+IkcW?1]CdglodU6`mbN>SN1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1611491489
+8C:/Users/nr.new/Desktop/rs_latch/rs_latch.v
+FC:/Users/nr.new/Desktop/rs_latch/rs_latch.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1611491744.000000
+!s107 C:/Users/nr.new/Desktop/rs_latch/rs_latch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nr.new/Desktop/rs_latch|C:/Users/nr.new/Desktop/rs_latch/rs_latch.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/nr.new/Desktop/rs_latch
+Z6 tCvgOpt 0
+vrs_latch_vlg_tst
+R1
+!i10b 1
+!s100 EJZ4CHGnaP59Q^[EH:mH;1
+I0CLQV7?hoQeISmD2C3kVZ3
+R2
+R0
+w1611491615
+8C:/Users/nr.new/Desktop/rs_latch/simulation/modelsim/rs_latch_tst.v
+FC:/Users/nr.new/Desktop/rs_latch/simulation/modelsim/rs_latch_tst.v
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/nr.new/Desktop/rs_latch/simulation/modelsim/rs_latch_tst.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nr.new/Desktop/rs_latch/simulation/modelsim|C:/Users/nr.new/Desktop/rs_latch/simulation/modelsim/rs_latch_tst.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/nr.new/Desktop/rs_latch/simulation/modelsim
+R6

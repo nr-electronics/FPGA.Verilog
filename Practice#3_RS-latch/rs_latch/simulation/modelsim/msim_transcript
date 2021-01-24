@@ -1,0 +1,57 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do rs_latch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/nr.new/Desktop/rs_latch {C:/Users/nr.new/Desktop/rs_latch/rs_latch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:35:44 on Jan 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nr.new/Desktop/rs_latch" C:/Users/nr.new/Desktop/rs_latch/rs_latch.v 
+# -- Compiling module rs_latch
+# 
+# Top level modules:
+# 	rs_latch
+# End time: 15:35:44 on Jan 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/nr.new/Desktop/rs_latch/simulation/modelsim {C:/Users/nr.new/Desktop/rs_latch/simulation/modelsim/rs_latch_tst.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:35:44 on Jan 24,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nr.new/Desktop/rs_latch/simulation/modelsim" C:/Users/nr.new/Desktop/rs_latch/simulation/modelsim/rs_latch_tst.v 
+# -- Compiling module rs_latch_vlg_tst
+# 
+# Top level modules:
+# 	rs_latch_vlg_tst
+# End time: 15:35:44 on Jan 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  rs_latch_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" rs_latch_vlg_tst 
+# Start time: 15:35:44 on Jan 24,2021
+# Loading work.rs_latch_vlg_tst
+# Loading work.rs_latch
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+# 0 s x r x q x q_n x
+# 10 s 0 r 0 q x q_n x
+# 20 s 1 r 0 q 1 q_n 0
+# 30 s 0 r 0 q 1 q_n 0
+# 40 s 0 r 1 q 0 q_n 1
+# 50 s 0 r 0 q 0 q_n 1
+# 60 s 1 r 1 q 0 q_n 0
+# 70 s 0 r 0 q 1 q_n 0
+# End time: 15:39:12 on Jan 24,2021, Elapsed time: 0:03:28
+# Errors: 0, Warnings: 0
