@@ -1,0 +1,34 @@
+|de10_lite
+ADC_CLK_10 => ~NO_FANOUT~
+MAX10_CLK1_50 => ~NO_FANOUT~
+MAX10_CLK2_50 => ~NO_FANOUT~
+KEY[0] => _.IN1
+KEY[1] => _.IN1
+SW[0] => ~NO_FANOUT~
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+LEDR[0] << d_latch:d_latch.q
+LEDR[1] << <GND>
+LEDR[2] << <GND>
+LEDR[3] << <GND>
+LEDR[4] << <GND>
+LEDR[5] << <GND>
+LEDR[6] << <GND>
+LEDR[7] << <GND>
+LEDR[8] << <GND>
+LEDR[9] << <GND>
+
+
+|de10_lite|d_latch:d_latch
+clk => q$latch.LATCH_ENABLE
+d => q$latch.DATAIN
+q <= q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
